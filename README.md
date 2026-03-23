@@ -1,6 +1,8 @@
 # Searching for HWW Anomalous Couplings with Simulation-Based Inference
 
-This repository contains the code for my master’s thesis ([Google Drive link](https://drive.google.com/drive/folders/196fLNg3hZFvv21622QWUlXJzikTR6Vxd?usp=share_link)), where the technique **ALICES** (Approximate Likelihood with Improved Cross-Entropy Estimator and Score) is benchmarked against **SALLY** (Score Approximates Likelihood LocallY) and histograms of kinematic and angular observables.
+This repository contains the code for my [Master’s Thesis](https://repository.cern/records/edyrv-bwg35), later extended into a peer-reviewed [publication](https://journals.aps.org/prd/abstract/10.1103/29xq-b66r) in Physical Review D. 
+
+The analysis benchmarks the simulation-based inference techniques **ALICES** (Approximate Likelihood with Improved Cross-Entropy Estimator and Score) and **SALLY** (Score Approximates Likelihood LocallY) against the traditional approachesof using histograms of kinematic and angular observables.
 
 This work uses **MadMiner** version `0.9.3` ([GitHub](https://github.com/madminer-tool/madminer)) and requires **MadGraph** version `>= 3.3.1` if generating samples.
 
